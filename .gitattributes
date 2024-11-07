@@ -1,0 +1,2 @@
+# Make sure all asset files have consistent line endings
+*.asset text eol=lf
