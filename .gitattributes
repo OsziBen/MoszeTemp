@@ -11,6 +11,8 @@
 # Unity fájlok
 *.prefab text eol=lf
 *.scene text eol=lf
+*.asset text eol=lf
+*.dwlt text eol=lf
 
 # Font fájlok
 *.ttf text eol=lf
