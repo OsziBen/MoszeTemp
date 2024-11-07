@@ -1,2 +1,25 @@
-# Make sure all asset files have consistent line endings
-*.asset text eol=lf
+# Szöveges fájlok
+*.txt text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.csv text eol=lf
+*.shader text eol=lf
+*.cs text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+
+# Unity fájlok
+*.prefab text eol=lf
+*.scene text eol=lf
+
+# Font fájlok
+*.ttf text eol=lf
+*.otf text eol=lf
+
+# Script fájlok
+*.js text eol=lf
+*.ts text eol=lf
+
+# YAML fájlok
+*.yml text eol=lf
+*.yaml text eol=lf
