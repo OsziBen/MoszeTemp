@@ -91,3 +91,18 @@ crashlytics-build.properties
 
 # Test Results directory
 /[Tt]estResults/
+
+# .gitignore and .gitattributes changes to ensure LF endings for all relevant files
+# Add these files to ensure correct line endings for Unity and text-based files
+*.asset text eol=lf
+*.prefab text eol=lf
+*.scene text eol=lf
+*.cs text eol=lf
+*.js text eol=lf
+*.shader text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+
+# Enforce proper line endings for .meta files (all Unity-related .meta files)
+*.meta text eol=lf
