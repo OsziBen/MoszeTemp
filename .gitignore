@@ -1,17 +1,13 @@
-# This .gitignore file should be placed at the root of your Unity project directory
-#
-# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-#
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+# Unity3D specific ignores
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
 
-# MemoryCaptures can get excessive in size.
-# They also could contain extremely sensitive data
+# MemoryCaptures can get excessive in size
 /[Mm]emoryCaptures/
 
 # Recordings can get excessive in size
@@ -61,7 +57,7 @@ sysinfo.txt
 *.unitypackage
 *.app
 
-# Crashlytics generated file
+# Crashlytics generated file (only if you use Firebase Crashlytics)
 crashlytics-build.properties
 
 # Packed Addressables
@@ -70,3 +66,28 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Additional Unity-specific files and folders
+/[Aa]ssets/[Ss]treamingAssets/
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/
+
+# Kép- és audió fájlok kizárása (ha nem használod Git LFS-t)
+*.psd
+*.tiff
+*.mp3
+*.wav
+*.ogg
+*.avi
+*.mp4
+*.mov
+
+# Developer environment specific files
+.idea/
+.vscode/
+
+# Additional temporary and backup files
+*.bak
+*.swp
+
+# Test Results directory
+/[Tt]estResults/
